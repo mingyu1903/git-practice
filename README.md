@@ -2,3 +2,4 @@
 学习git
 - git clone
 - git push
+- git commit
