@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +9,9 @@ body {
 .box {
     width: 300px;
     height: 300px;
-    background: 
-    left 20px bottom / 50% 50%
-    white 
-    url(https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExODA5M30)
-    no-repeat;
+    background: left 20px bottom / 50% 50% white
+        url(https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExODA5M30)
+        no-repeat;
 }
 .item {
     color: rgb(60, 219, 193);
@@ -28,10 +26,22 @@ body {
     margin: auto;
     margin-top: 10px;
     cursor: pointer;
-    transition: all ease .3s;
+    animation: i 1.5s infinite;
+    /* transform: scale(1.2); */
 }
-.item:hover{
+.item:hover {
     background: rgb(60, 219, 193);
     color: #fff;
-    transform: scale(1.2);
+}
+
+@keyframes i {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
 }
