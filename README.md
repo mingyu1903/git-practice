@@ -3,3 +3,4 @@
 - git clone
 - git push
 - git commit
+- git status
