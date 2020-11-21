@@ -28,8 +28,10 @@ body {
     margin: auto;
     margin-top: 10px;
     cursor: pointer;
+    transition: all ease .3s;
 }
 .item:hover{
     background: rgb(60, 219, 193);
     color: #fff;
+    transform: scale(1.2);
 }
