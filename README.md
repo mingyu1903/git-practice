@@ -3,4 +3,5 @@
 - git clone
 - git push
 - git commit
+- git add
 - git status
