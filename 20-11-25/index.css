@@ -13,8 +13,8 @@ body {
 }
 .box {
     display: flex;
-    flex-direction: column;
-    height: 130%;
+    /* flex-direction: column; */
+    height: 100%;
     background:lightblue;
 }
 .content {
@@ -22,14 +22,14 @@ body {
     flex-grow: 1;
     background: lightpink;
 }
-.head {
-    height: 100px;
-    width: 100%;
+.left {
+    height: 100%;
+    width: 100px;
     background: blanchedalmond;
 }
-.footer {
-    height: 100px;
-    width: 100%;
+.right {
+    height: 100%;
+    width: 100px;
     background: grey;
     /* margin-top: auto; */
     /* align-self: flex-end; */
