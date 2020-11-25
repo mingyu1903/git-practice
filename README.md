@@ -7,3 +7,4 @@
 - git status
 - add email
 - add branch
+- git checkout
