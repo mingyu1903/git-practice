@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html {
+    height: 100%;
+    background: yellow;
+} */
+body {
+    background: blue;
+    height: 100vh;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 130%;
+    background:lightblue;
+}
+.content {
+    /* height: 80vh; */
+    flex-grow: 1;
+    background: lightpink;
+}
+.head {
+    height: 100px;
+    width: 100%;
+    background: blanchedalmond;
+}
+.footer {
+    height: 100px;
+    width: 100%;
+    background: grey;
+    /* margin-top: auto; */
+    /* align-self: flex-end; */
+}
