@@ -8,3 +8,4 @@
 - add email
 - add branch
 - git checkout
+- git merge
