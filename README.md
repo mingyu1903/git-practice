@@ -9,3 +9,4 @@
 - add branch
 - git checkout
 - git merge
+- chenge main
