@@ -20,7 +20,7 @@ body {
 .content {
     /* height: 80vh; */
     flex-grow: 1;
-    background: lightpink;
+    background: limegreen;
 }
 .left {
     height: 100%;
