@@ -10,3 +10,4 @@
 - git checkout
 - git merge
 - chenge main
+- stash
